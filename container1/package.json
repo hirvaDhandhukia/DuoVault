@@ -1,0 +1,24 @@
+{
+  "name": "container1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.787.0",
+    "@aws-sdk/credential-provider-env": "^3.775.0",
+    "@google-cloud/translate": "^9.0.1",
+    "axios": "^1.8.4",
+    "body-parser": "^2.2.0",
+    "container1": "file:",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.0"
+  }
+}

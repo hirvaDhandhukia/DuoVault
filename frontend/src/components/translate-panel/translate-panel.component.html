@@ -1,0 +1,11 @@
+<!-- translate-panel.component.html -->
+<div class="translate-container">
+    <!-- <app-language-selector></app-language-selector> -->
+
+    <div class="panel-grid">
+        <form [formGroup]="form">
+            <app-text-area placeholder="Enter text" side="input" [form]="form"></app-text-area>
+            <app-text-area placeholder="Translation" side="output" [form]="form"></app-text-area>
+        </form>
+    </div>
+</div>

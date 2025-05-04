@@ -1,0 +1,12 @@
+<!-- text-area.component.html -->
+<mat-card class="card-container">
+    <form [formGroup]="form">
+        <mat-form-field appearance="outline" class="full-width">
+            <mat-label> {{ side === "input" && "Input Text" || "Translation" }}</mat-label>
+            <textarea [formControlName]="side" matInput [placeholder]="placeholder" rows="10" ></textarea>
+            <!-- <button *ngIf="side === 'input'" mat-icon-button matSuffix>
+                <mat-icon>mic</mat-icon>
+            </button> -->
+        </mat-form-field>
+    </form>
+</mat-card>
